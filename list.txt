@@ -1,5 +1,6 @@
 ! 首頁copilot容器
-github.com##.CopilotChatInputPartial-module__inputContainer__ULM7D
+github.com##[class^="CopilotChatInputPartial-module__inputContainer"]
+
 
 
 
