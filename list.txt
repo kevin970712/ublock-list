@@ -1,6 +1,10 @@
 ! 首頁copilot容器
 github.com##[class^="CopilotChatInputPartial-module__inputContainer"]
 
+! duckduckgo footer
+duckduckgo.com##.footer
+
+
 
 
 
