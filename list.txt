@@ -4,6 +4,17 @@ github.com##[class^="CopilotChatInputPartial-module__inputContainer"]
 ! duckduckgo footer
 duckduckgo.com##.footer
 
+! Google AI overview
+www.google.com##[data-aquarium]
+www.google.com##[data-attnms]
+www.google.com##[data-subtree="mfc"]
+www.google.com##[data-subtree="mfc,mfl"]
+www.google.com###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
+www.google.com##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
+
+! The Verge 訂閱彈窗
+||theverge.com/zephr/
+
 
 
 
