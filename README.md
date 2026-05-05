@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kevin970712/ublock-list/refs/heads/main/list.txt
+https://raw.githubusercontent.com/internet-coffee/ublock-list/refs/heads/main/list.txt
