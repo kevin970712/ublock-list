@@ -1,5 +1,6 @@
 ! Title: 更好的 YouTube 體驗
 ! Description: 調整外觀以提升 YouTube 使用體驗
+! 補充：若想要隱藏short額外新增此連結 https://raw.githubusercontent.com/i5heu/ublock-hide-yt-shorts/master/list.txt
 
 ! YT舊版播放器圖示
 youtube.com##+js(set, Object.prototype.delhi_modern_web_player, false)
