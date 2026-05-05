@@ -1,19 +1,59 @@
 ! 首頁copilot容器
 github.com##[class^="CopilotChatInputPartial-module__inputContainer"]
 
+! wiki banner
+wikipedia.org##.cbnnr-container
+
 ! duckduckgo footer
 duckduckgo.com##.footer
 
-! Google AI overview
-www.google.com##[data-aquarium]
-www.google.com##[data-attnms]
-www.google.com##[data-subtree="mfc"]
-www.google.com##[data-subtree="mfc,mfl"]
+! YT舊版播放器
+youtube.com##+js(set, Object.prototype.delhi_modern_web_player, false)
+youtube.com##+js(set, Object.prototype.delhi_modern_web_player_icons, false)
+! YT訂閱最相關
+youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer
+! YT探索更多主題
+youtube.com##ytd-chips-shelf-with-video-shelf-renderer
+! YT影片播放不順嗎?
+youtube.com##.toast-button.style-scope.yt-notification-action-renderer.paper-toast-open
+! YT會員推廣
+youtube.com##ytd-rich-section-renderer:has(#statement-banner-content)
+! YT播放器全螢幕右下角快速操作
+youtube.com##.ytp-fullscreen-quick-actions 
+! YT隱藏搜尋「其他人也觀看過」、「之前觀看過」
+youtube.com##ytd-search :is(ytd-shelf-renderer, grid-shelf-view-model) 
+! YT首頁訂閱內容、個人中心懸停視窗
+youtube.com##+js(aeld, mouseenter, , elements, ytd-mini-guide-entry-renderer) 
+! YT隱藏留言
+youtube.com##ytd-comments
+! YT首頁隱藏合輯
+youtube.com##ytd-rich-item-renderer:has([href*="start_radio=1"])
+! YT側邊欄隱藏合輯
+youtube.com##ytd-compact-radio-renderer, :is(#related yt-lockup-view-model,ytd-compact-video-renderer):has([href*="&start_radio=1"])
+! YT搜尋結果隱藏合輯
+youtube.com##ytd-radio-renderer, :is(ytd-search yt-lockup-view-model,ytd-video-renderer[is-search]):has([href*="&start_radio=1"][aria-haspopup])
+! YT解決緩衝（實驗性）
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false) 
+! YT首頁隱藏貼文
+youtube.com##ytd-browse[page-subtype="home"] ytd-rich-item-renderer[is-post]
+! YT片尾隱藏推薦影片
+youtube.com##.ytp-fullscreen-grid
+
+! Google AI摘要
+www.google.com##[data-aquarium], [data-attnms], [data-subtree="mfc"], [data-subtree="mfc,mfl"],
 www.google.com###Odp5De:has(> div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 www.google.com##div.YNk70c.EjQTId:has(+ div[data-hveid] > div[data-hveid] > div#Odp5De > div.YNk70c.EjQTId > div.Kevs9.SLPe5b > div[jscontroller] > div#eKIzJc > div.YzCcne > div.hdzaWe > div[data-attnms])
 
-! The Verge 訂閱彈窗
+! theverge付費彈窗
 ||theverge.com/zephr/
+
+! https://wnacg.com
+wnacg.com##a[href*=".shop"]
+wnacg.com##img[src*=".shop"]
+wnacg.com##a[href*="erodatalabs.com"]
+wnacg.com##img[src*="erodatalabs.com"]
 
 
 
